@@ -55,7 +55,7 @@ const Home: React.FunctionComponent<HomeProps> = (props) => {
     actionText = 'Join';
   }
   return (
-    <div>
+    <div style={{ backgroundColor: '#001f3f', minHeight: '100vh' }}>
       <div className="nav">
         <a href="/" className="navhome">
           <img src="./logo.svg" alt="Home" />
